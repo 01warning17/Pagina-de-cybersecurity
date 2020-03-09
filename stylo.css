@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+.navegacion{
+    padding: 0;
+    margin: 0;
+  }
+   
+  /*Agregamos margenes inferiores a los parrafos*/
+  p {
+    margin-bottom: 20px;
+  }
+
+
+.titulo {
+    font-size: 90px;
+    font-family: serif;
+}
+h1 {
+    font-size: 70px;
+}
+.navegacion ul li a {
+    text-decoration: none;
+    padding: 4px;
+    color: greenyellow;
+    /*background-image: url(imagenes/hack.jpg);*/
+    /* pading es la distancia que separa el texto horizontalmente */
+    
+}
+#_1 {
+    color: green;
+    font-size: 40px;
+}
+#cyber { 
+    
+    font-family: unset;
+    color: white;
+    font-size: 70px;
+   
+}
+
+/* pone el texto horizontal */
+.navegacion li {
+    text-align: right;
+    display: inline-block;
+    font-size: 40px;
+    
+}
+.cualidades {
+    font-size: 90px;
+}
